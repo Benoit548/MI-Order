@@ -1,19 +1,19 @@
 <resources>
-    <string name="app_name">Nature Emoi</string>
+    <string name="app_name">MI Order</string>
     
-    <string name="bottom_home_item">Accueil</string>
-    <string name="bottom_collection_item">Collection</string>
-    <string name="bottom_add_plant_item">Ajouter</string>
+    <string name="bottom_home_item">Home</string>
+    <string name="bottom_favorites_item">Favorites</string>
+    <string name="bottom_cart_item">Cart</string>
 
     <!--Home page-->
-    <string name="home_page_tittle">A découvrir</string>
-    <string name="home_page_last_plant_section">Dernières plantes</string>
+    <string name="home_page_title">Trending</string>
+    <string name="home_page_dishes">Dishes</string>
 
-    <!--Collection page-->
-    <string name="collection_page_tittle">Ma collection</string>
+    <!--Fav page-->
+    <string name="collection_page_tittle">My favorites</string>
 
-    <!--Page d'ajout d'une plante-->
-    <string name="add_plant_tittle">Ajout d\'une plante</string>
+    <!--Page Cart-->
+    <string name="Cart_title">My Cart</string>
     <string name="add_plant_upload_button">Charger Image</string>
     <string name="add_plant_page_name_input">@string/item_plant_name</string>
     <string name="add_plant_page_description_input">@string/item_plant_description</string>

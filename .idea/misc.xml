@@ -5,6 +5,12 @@
       <map>
         <entry key="..\:/Users/benoi/AndroidStudioProjects/MI-Order/app/src/main/res/layout/activity_home_page.xml" value="0.35260416666666666" />
         <entry key="..\:/Users/benoi/AndroidStudioProjects/MI-Order/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/benoi/AndroidStudioProjects/MI-Order/app/src/main/res/layout/fragment_add_plant.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/benoi/AndroidStudioProjects/MI-Order/app/src/main/res/layout/fragment_collection.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/benoi/AndroidStudioProjects/MI-Order/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/benoi/AndroidStudioProjects/MI-Order/app/src/main/res/layout/item_horizontal_plant.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/benoi/AndroidStudioProjects/MI-Order/app/src/main/res/layout/item_vertical_plant.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/benoi/AndroidStudioProjects/MI-Order/app/src/main/res/layout/popup_plant_details.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/benoi/AndroidStudioProjects/MI_Order/app/src/main/res/layout/activity_main.xml" value="0.10144927536231885" />
       </map>
     </option>
