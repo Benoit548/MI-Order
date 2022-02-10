@@ -2,9 +2,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".HomePage">
 
     <TextView
         android:id="@+id/app_title"
@@ -25,15 +26,6 @@
         app:layout_constraintTop_toBottomOf="@+id/app_title"
         style="@style/titleTextStyle"/>
 
-    <Button
-        android:text="Button"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
@@ -52,6 +44,5 @@
         app:itemTextColor="@drawable/bottom_nav_color"
         app:itemIconTint="@drawable/bottom_nav_color"
         android:theme="@style/BottomNavigationStyle"/>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
