@@ -3,4 +3,6 @@
     <string name="welcome">Welcome to MI Order !\nPlease submit your order.</string>
 
     <string name="home_page_last_food_section">Last meal!</string>
+
+    <string name="home_page_title">Home page TITLE</string>
 </resources>
