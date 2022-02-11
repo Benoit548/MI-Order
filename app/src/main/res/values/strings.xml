@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">MI_Order</string>
     <string name="welcome">Welcome to MI Order !\nPlease submit your order.</string>
+
+    <string name="home_page_last_food_section">Last meal!</string>
 </resources>
