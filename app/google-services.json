@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "27280585047",
+    "project_id": "mi-order-ad764",
+    "storage_bucket": "mi-order-ad764.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27280585047:android:b3b02cd91efc31c6edce12",
+        "android_client_info": {
+          "package_name": "com.example.mi_order"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27280585047-hoa1fsak37gund67pl8em37ejgmvi45u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwq-Ua6JZI1hIwpu1Lbfw9S7LWSec66jg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27280585047-hoa1fsak37gund67pl8em37ejgmvi45u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
