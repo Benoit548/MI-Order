@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:text="@string/home_page_last_food_section"
         android:layout_marginTop="@dimen/default_margin"
-        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginStart="@dimen/default_margin"
         style="@style/SubtitleTextStyle"/>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -26,10 +26,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="@dimen/default_margin"
-        android:layout_marginLeft="@dimen/default_margin"
+        android:layout_marginStart="@dimen/default_margin"
         android:orientation="vertical"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         />
-
 
 </LinearLayout>
