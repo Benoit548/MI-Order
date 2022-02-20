@@ -13,7 +13,7 @@ import com.example.mi_order.*
 
 
 class FoodAdapter(
-    private val context: MainActivity,
+    val context: MainActivity,
     private val foodList: List<FoodModel>,
     private val layoutId: Int
 ) : RecyclerView.Adapter<FoodAdapter.ViewHolder>(){
@@ -47,6 +47,12 @@ class FoodAdapter(
 
         //Mettre à jour la description
         holder.foodDescription?.text = currentFood.description
+
+        //Interaction lors d'un clic sur food, faire afficher le popup
+        holder.itemView.setOnClickListener{
+            //Afficher la popup
+            FoodPopup(this, currentFood).show()
+        }
 
     }
 

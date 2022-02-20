@@ -5,4 +5,74 @@
     <string name="home_page_last_food_section">Last meal!</string>
 
     <string name="home_page_title">Home page TITLE</string>
+        <!--Popup-->
+    <string name="popup_food_name">Food Name</string>
+    <string name="popup_food_description_title">Description</string>
+    <string name="popup_food_name_subtitle">Little description</string>
+
+        <!--Option sauce-->
+    <string-array name="options_sauce">
+        <item>Mustard</item>
+        <item>Barbecue</item>
+        <item>Mayonnaise</item>
+        <item>Ketchup</item>
+        <item>Hannibal</item>
+        <item>Andalouse</item>
+    </string-array>
+
+
+        <!--food_1-->
+    <string name="food_1_title">Hot Dog</string>
+    <string name="food_1_description">Composed of an elongated bread filled with a cooked sausage with sauce of your choice. Cost 1 unit in your menu.</string>
+    <string name="food_1_units">1</string>
+
+
+        <!--food_2-->
+    <string name="food_2_title">Ramen</string>
+    <string name="food_2_description">Composed of two packages of instants noodles with the flavour of your choice. Cost 2 units in your menu.</string>
+    <string name="food_2_units">2</string>
+    <string-array name="ramen">
+        <item>Duck</item>
+        <item>Beef</item>
+        <item>Chicken</item>
+        <item>Chicken curry</item>
+    </string-array>
+    <string-array name="ramen_cutlery">
+        <item>Fork</item>
+        <item>Chopstick</item>
+    </string-array>
+
+    <!--food_3-->
+    <string name="food_3_title">Sandwich</string>
+    <string name="food_3_description">Half a baguette filled with one meat, one cheese and sauce of your choice. Tick the box "raw vegetables" to add it in your sandwich. Cost 2 units in your menu.</string>
+    <string name="food_3_units">2</string>
+
+
+    <string-array name="meat">
+        <item>Ham</item>
+        <item>Chorizo</item>
+        <item>Rosette</item>
+    </string-array>
+
+    <string-array name="cheese">
+        <item>Emmental</item>
+        <item>Raclette</item>
+        <item>Rosette</item>
+    </string-array>
+
+    <string-array name="spreadable">
+        <item>Chicken curry</item>
+        <item>Tuna mayonnaise</item>
+        <item>Chicken andalouse</item>
+    </string-array>
+
+    <!--food_4-->
+    <string name="food_4_title">Panini</string>
+    <string name="food_4_description">Half a baguette filled with one meat, one cheese of your choice all toasted in the grill. Cost 2 units in your menu.</string>
+    <string name="food_4_units">2</string>
+
+    <!--food_5-->
+    <string name="food_5_title">Croque-monsieur</string>
+    <string name="food_5_description">French speciality, two pieces of bread filled with one meat, one cheese of your choice all toasted on the grill. Cost 2 units in your menu.</string>
+    <string name="food_5_units">1</string>
 </resources>
