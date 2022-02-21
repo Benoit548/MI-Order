@@ -5,10 +5,17 @@
     <string name="home_page_last_food_section">Last meal!</string>
 
     <string name="home_page_title">Home page TITLE</string>
+    <string name="menu_page_title">Menu</string>
+    <string name="cart_title">Cart</string>
         <!--Popup-->
     <string name="popup_food_name">Food Name</string>
     <string name="popup_food_description_title">Description</string>
     <string name="popup_food_name_subtitle">Little description</string>
+
+    <!--Bottom navigation page-->
+    <string name="bottom_menu_item">Menu</string>
+    <string name="bottom_home_item">Home</string>
+    <string name="bottom_cart_item">Cart</string>
 
         <!--Option sauce-->
     <string-array name="options_sauce">

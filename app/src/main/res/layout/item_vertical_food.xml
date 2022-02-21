@@ -7,8 +7,8 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
         app:cardCornerRadius="8dp"
         app:cardElevation="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -39,7 +39,7 @@
         style="@style/SubtitleTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/item_margin"
+        android:layout_marginLeft="@dimen/default_margin"
         android:text="item_food_name"
         app:layout_constraintBottom_toTopOf="@+id/view_separation"
         app:layout_constraintStart_toEndOf="@+id/cardView" />
@@ -53,15 +53,7 @@
         app:layout_constraintStart_toStartOf="@+id/name_item"
         app:layout_constraintTop_toBottomOf="@+id/view_separation" />
 
-    <ImageView
-        android:id="@+id/star_icon"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:src="@drawable/ic_unstar"
-        app:layout_constraintBottom_toBottomOf="@+id/cardView"
-        app:layout_constraintEnd_toEndOf="@+id/view_separation"
-        app:layout_constraintTop_toTopOf="@+id/cardView"
-        android:layout_marginRight="@dimen/default_margin"/>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
