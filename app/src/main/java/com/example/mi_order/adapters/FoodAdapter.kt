@@ -22,7 +22,7 @@ class FoodAdapter(
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view){
         val foodImage = view.findViewById<ImageView>(R.id.image_item)
         val foodName:TextView?= view.findViewById(R.id.name_item)
-        val foodDescription:TextView?= view.findViewById(R.id.description_item)
+        val foodUnit:TextView?= view.findViewById(R.id.unit_item)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -46,7 +46,7 @@ class FoodAdapter(
         holder.foodName?.text = currentFood.name
 
         //Mettre à jour la description
-        holder.foodDescription?.text = currentFood.description
+        holder.foodUnit?.text = currentFood.unit.toString()
 
         //Interaction lors d'un clic sur food, faire afficher le popup
         holder.itemView.setOnClickListener{

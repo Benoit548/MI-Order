@@ -45,12 +45,22 @@
         app:layout_constraintStart_toEndOf="@+id/cardView" />
 
     <TextView
-        android:id="@+id/description_item"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Units"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="@+id/name_item"
+        app:layout_constraintTop_toBottomOf="@+id/name_item" />
+
+    <TextView
+        android:id="@+id/unit_item"
         style="@style/DefaultTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="item_food_description"
-        app:layout_constraintStart_toStartOf="@+id/name_item"
+        android:text="item_unit"
+        android:layout_marginLeft="7dp"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/view_separation" />
 
 
