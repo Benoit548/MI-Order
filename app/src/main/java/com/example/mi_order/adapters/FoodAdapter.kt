@@ -45,7 +45,7 @@ class FoodAdapter(
         // mettre à jour le nom de la plante
         holder.foodName?.text = currentFood.name
 
-        //Mettre à jour la description
+        //Mettre à jour les units
         holder.foodUnit?.text = currentFood.unit.toString()
 
         //Interaction lors d'un clic sur food, faire afficher le popup

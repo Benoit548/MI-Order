@@ -18,7 +18,7 @@ class FoodRepository {
 
         val databaseRef = FirebaseDatabase.getInstance("https://mi-order-ad764-default-rtdb.europe-west1.firebasedatabase.app/").getReference("Foods")
 
-        // créer une liste qui va contenir nos plantes
+        // créer une liste qui va contenir l'ensemble de notre food
         val foodList = arrayListOf<FoodModel>()
 
     }
@@ -37,7 +37,7 @@ class FoodRepository {
 
                     // verifier que la class est pas nulle
                     if (food != null) {
-                        //ajouter la plante à notre liste
+                        //ajouter la food à notre liste
                         foodList.add(food)
                     }
                 }

@@ -10,6 +10,9 @@
     <string name="popup_food_name">Food Name</string>
     <string name="popup_food_description_title">Description</string>
     <string name="popup_food_name_subtitle">Little description</string>
+    <string name="popup_food_unit">Units</string>
+    <string name="popup_food_units_number">number of units</string>
+    <string name="popup_add_food_button">Add to cart</string>
 
     <!--Bottom navigation page-->
     <string name="bottom_menu_item">Menu</string>
