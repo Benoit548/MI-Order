@@ -14,6 +14,17 @@
     <string name="popup_food_units_number">number of units</string>
     <string name="popup_add_food_button">Add to cart</string>
 
+    <!--Cart-->
+    <string name="user_name_input">Name for the order</string>
+    <string name="send_order_confirm_button">Send order</string>
+    <string-array name="foor_order_input">
+        <item>HotDog</item>
+        <item>Ramen</item>
+        <item>Croque-Monsieur</item>
+        <item>Panini</item>
+        <item>Sandwich</item>
+    </string-array>
+
     <!--Bottom navigation page-->
     <string name="bottom_menu_item">Menu</string>
     <string name="bottom_home_item">Home</string>

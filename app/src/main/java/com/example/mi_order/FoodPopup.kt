@@ -3,16 +3,11 @@ package com.example.mi_order
 import android.app.Dialog
 import android.net.Uri
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.Window
-import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
-import com.example.mi_order.FoodPopup.Singleton.cartFoodList
 import com.example.mi_order.adapters.FoodAdapter
-import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.FirebaseDatabase
 
 class FoodPopup (
     private val adapter: FoodAdapter,
@@ -27,12 +22,8 @@ class FoodPopup (
             setupComponents()
             setupCloseButton()
 
-
         }
-    object Singleton {
-        // créer une liste qui va contenir notre liste de food qu'on veut acheter.
-        val cartFoodList = arrayListOf<FoodModel>()
-    }
+
 
     private fun setupCloseButton() {
             findViewById<ImageView>(R.id.close_button).setOnClickListener{
@@ -55,10 +46,7 @@ class FoodPopup (
 
             //Actualiser le nbr d'Units
             findViewById<TextView>(R.id.popup_food_units_number).text = currentFood.unit.toString()
-            
-            //Recuperer le bouton confirmer
-            val addCartButton = findViewById<Button>(R.id.add_food_cart_button)
-            addCartButton.setOnClickListener(cartFoodList.add(currentFood))
+
 
 
         }
@@ -67,8 +55,5 @@ class FoodPopup (
 
     }
 
-private fun Button.setOnClickListener(add: Boolean) {
-
-}
 
 
