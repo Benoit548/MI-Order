@@ -1,4 +1,4 @@
-package com.example.mi_order
+package com.example.mi_order.models
 
 class FoodModel(
     val id: String = "food1",

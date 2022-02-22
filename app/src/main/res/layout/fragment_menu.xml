@@ -5,16 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:id="@+id/image_menu"
-        android:layout_width="wrap_content"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/horizontal_recycler_view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/trending5"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:ignore="MissingConstraints"
-        android:adjustViewBounds="true"
-        android:scaleType="fitCenter"/>
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 

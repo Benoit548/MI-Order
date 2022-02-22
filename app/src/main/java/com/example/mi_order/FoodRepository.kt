@@ -1,18 +1,14 @@
 package com.example.mi_order
 
-import android.net.Uri
 import com.example.mi_order.FoodRepository.Singleton.databaseRef
 import com.example.mi_order.FoodRepository.Singleton.databaseRefOrder
 import com.example.mi_order.FoodRepository.Singleton.foodList
-import com.google.android.gms.tasks.Continuation
-import com.google.android.gms.tasks.Task
+import com.example.mi_order.models.FoodModel
+import com.example.mi_order.models.OrderModel
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import com.google.firebase.storage.FirebaseStorage
-import com.google.firebase.storage.UploadTask
-import java.util.*
 
 class FoodRepository {
 
@@ -26,8 +22,6 @@ class FoodRepository {
 
         // créer une liste qui va contenir l'ensemble de notre food
         val foodList = arrayListOf<FoodModel>()
-
-
 
     }
 

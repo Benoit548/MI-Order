@@ -8,6 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
 import com.example.mi_order.adapters.FoodAdapter
+import com.example.mi_order.models.FoodModel
 
 class FoodPopup (
     private val adapter: FoodAdapter,
