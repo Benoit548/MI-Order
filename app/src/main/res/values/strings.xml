@@ -17,12 +17,34 @@
     <!--Cart-->
     <string name="user_name_input">Name for the order</string>
     <string name="send_order_confirm_button">Send order</string>
-    <string-array name="foor_order_input">
+
+    <string-array name="food_order_input">
         <item>HotDog</item>
         <item>Ramen</item>
         <item>Croque-Monsieur</item>
         <item>Panini</item>
         <item>Sandwich</item>
+    </string-array>
+
+    <string-array name="ramen_order_input">
+        <item>Ramen</item>
+
+    </string-array>
+
+    <string-array name="sandwich_order_input">
+        <item>Sandwich</item>
+    </string-array>
+
+    <string-array name="panini_order_input">
+        <item>Panini</item>
+    </string-array>
+
+    <string-array name="croque_order_input">
+        <item>Croque-Monsieur</item>
+    </string-array>
+
+    <string-array name="hotdog_order_input">
+        <item>HotDog</item>
     </string-array>
 
     <!--Bottom navigation page-->
