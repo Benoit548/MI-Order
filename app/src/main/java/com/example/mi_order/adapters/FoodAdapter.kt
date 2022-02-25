@@ -33,7 +33,7 @@ class FoodAdapter(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        //Recuperer les informations de la plante
+        //Recuperer les informations
         val currentFood = foodList[position]
 
         //Recuperer le repository
@@ -46,7 +46,7 @@ class FoodAdapter(
         holder.foodName?.text = currentFood.name
 
         //Mettre à jour les units
-        holder.foodUnit?.text = currentFood.unit.toString()
+        holder.foodUnit?.text = currentFood.unit
 
         //Interaction lors d'un clic sur food, faire afficher le popup
         holder.itemView.setOnClickListener{

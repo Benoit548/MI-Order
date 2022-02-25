@@ -10,7 +10,7 @@
     <string name="popup_food_name">Food Name</string>
     <string name="popup_food_description_title">Description</string>
     <string name="popup_food_name_subtitle">Little description</string>
-    <string name="popup_food_unit">Units</string>
+    <string name="food_unit">Price</string>
     <string name="popup_food_units_number">number of units</string>
     <string name="popup_add_food_button">Add to cart</string>
 
@@ -27,24 +27,34 @@
     </string-array>
 
     <string-array name="ramen_order_input">
-        <item>Ramen</item>
-
+        <item>Boeuf</item>
+        <item>Poulet</item>
+        <item>Canard</item>
     </string-array>
 
     <string-array name="sandwich_order_input">
-        <item>Sandwich</item>
+        <item>Jambon</item>
+        <item>Poulet</item>
+        <item>Dinde</item>
+
     </string-array>
 
     <string-array name="panini_order_input">
-        <item>Panini</item>
+        <item>Jambon</item>
+        <item>Poulet</item>
+        <item>Dinde</item>
     </string-array>
 
     <string-array name="croque_order_input">
-        <item>Croque-Monsieur</item>
+        <item>Cheddar</item>
+        <item>Emmental</item>
+        <item>Raclette</item>
     </string-array>
 
     <string-array name="hotdog_order_input">
-        <item>HotDog</item>
+        <item>Ketchup</item>
+        <item>Mayonnaise</item>
+        <item>Moutarde</item>
     </string-array>
 
     <!--Bottom navigation page-->

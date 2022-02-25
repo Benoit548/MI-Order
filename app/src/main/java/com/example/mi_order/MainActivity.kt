@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun loadFragment(fragment: Fragment, string: Int) {
-        // charger notre PlantRepository
+        // charger notre FoodRepository
         val repo = FoodRepository()
 
         //Actualiser le titre de la page
