@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.mi_order.*
 import com.example.mi_order.models.FoodModel
+import com.example.mi_order.popups.FoodPopup
 
 
 class FoodAdapter(

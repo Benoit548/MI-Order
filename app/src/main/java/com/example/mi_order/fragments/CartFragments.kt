@@ -8,21 +8,15 @@ import android.view.ViewGroup
 import android.widget.*
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
-import com.android.volley.Request
-import com.android.volley.RequestQueue
-import com.android.volley.toolbox.StringRequest
-import com.android.volley.toolbox.Volley
-import com.android.volley.toolbox.Volley.newRequestQueue
 import com.example.mi_order.*
 import com.example.mi_order.models.OrderModel
+import com.example.mi_order.models.PostModel
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.*
-import kotlin.random.Random.Default.nextInt
-import kotlin.random.Random
 import com.example.mi_order.MainActivity as MainActivity1
 
 

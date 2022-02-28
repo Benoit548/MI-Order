@@ -3,12 +3,15 @@ package com.example.mi_order
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.example.mi_order.fragments.CartFragment
 
 import com.example.mi_order.fragments.HomeFragments;
 import com.example.mi_order.fragments.MenuFragment
+import com.example.mi_order.utils.Constants
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -17,6 +20,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         loadFragment(HomeFragments(this),R.string.home_page_title)
+
+        //Tester si Admin ou non
+        if(Constants.Login.EXTRA_LOGIN == "admin"){
+            val menuAdmin = findViewById<ImageView>(R.id.liste_des_commandes)
+            menuAdmin.setVisibility(View.VISIBLE)
+        }
 
         // Importer la bottomnavigationview
         val navigationView = findViewById<BottomNavigationView>(R.id.navigation_view)

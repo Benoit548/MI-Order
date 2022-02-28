@@ -15,7 +15,7 @@
         android:theme="@style/Theme.MI_Order"
         tools:ignore="AllowBackup">
         <activity
-            android:name=".MainActivity"
+            android:name=".utils.LoginActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="true">
             <intent-filter>
@@ -23,6 +23,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="false">
         </activity>
     </application>
 

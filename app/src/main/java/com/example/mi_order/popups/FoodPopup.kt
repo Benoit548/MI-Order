@@ -1,4 +1,4 @@
-package com.example.mi_order
+package com.example.mi_order.popups
 
 import android.app.Dialog
 import android.net.Uri
@@ -7,6 +7,7 @@ import android.view.Window
 import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
+import com.example.mi_order.R
 import com.example.mi_order.adapters.FoodAdapter
 import com.example.mi_order.models.FoodModel
 

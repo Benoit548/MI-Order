@@ -2,7 +2,7 @@ package com.example.mi_order
 
 import retrofit2.Call
 import retrofit2.http.GET
-import com.example.mi_order.PostModel
+import com.example.mi_order.models.PostModel
 
 interface RetrofitInterface {
 
