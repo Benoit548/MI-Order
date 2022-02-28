@@ -11,6 +11,8 @@ import androidx.fragment.app.Fragment
 import com.example.mi_order.*
 import com.example.mi_order.models.OrderModel
 import com.example.mi_order.models.PostModel
+import com.example.mi_order.repository.FoodRepository
+import com.example.mi_order.repository.OrderRepository
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -44,19 +46,19 @@ class CartFragment(
                 call: Call<List<PostModel?>?>,
                 response: Response<List<PostModel?>?>
             ) {
+
                     var postlist : List<PostModel>? = response.body() as List<PostModel>
                     var post = arrayOfNulls<String>(postlist!!.size)
                     for(i:Int in postlist!!.indices)
                         post[i] = postlist!![i]!!.name
 
-
+                    //Pour prendre un nom aléatoire
                     post.shuffle()
                     var random = post[0]
 
                     val nameInput = view.findViewById<EditText>(R.id.name_input)
                     nameInput.hint = random
             }
-
             override fun onFailure(call: Call<List<PostModel?>?>, t: Throwable) {
             }
 
@@ -119,7 +121,7 @@ class CartFragment(
                  precision)
 
              //Envoyer en BDD
-             FoodRepository().insertOrder(order)
+             OrderRepository().insertOrder(order)
 
              //On change les propriétés du boutton pour éviter le spam de commande
              val addButton = view.findViewById<Button>(R.id.confirm_button)

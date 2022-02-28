@@ -11,6 +11,7 @@ import com.bumptech.glide.Glide
 import com.example.mi_order.*
 import com.example.mi_order.models.FoodModel
 import com.example.mi_order.popups.FoodPopup
+import com.example.mi_order.repository.FoodRepository
 
 
 class FoodAdapter(
@@ -43,7 +44,7 @@ class FoodAdapter(
         //utiliser glide(une dépendance) pour récupérer l'image à partir de son lien -> composant
         Glide.with(context).load(Uri.parse(currentFood.imageUrl)).into(holder.foodImage)
 
-        // mettre à jour le nom de la plante
+        // mettre à jour le nom
         holder.foodName?.text = currentFood.name
 
         //Mettre à jour les units

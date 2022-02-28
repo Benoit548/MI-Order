@@ -16,25 +16,22 @@ class LoginActivity : AppCompatActivity(){
         setContentView(R.layout.login_page)
 
         val normalButton = findViewById<Button>(R.id.button_normal_co)
-        val usernameInput = findViewById<EditText>(R.id.username_input)
+
         val passwordInput = findViewById<EditText>(R.id.password_input)
 
-        fun getIntent(userName : String): Intent {
-            val myIntent = Intent(this, MainActivity::class.java)
-            val extras = Bundle()
-            val userName = usernameInput.getText().toString()
-            extras.putString(Constants.Login.EXTRA_LOGIN, userName)
-            myIntent.putExtras(extras)
-            return myIntent
-        }
-
-
         normalButton.setOnClickListener {
-            startActivity(getIntent(usernameInput.getText().toString()))
-            finish()
+            callActivity()
         }
+    }
 
+    private fun callActivity(){
+        val usernameInput = findViewById<EditText>(R.id.username_input)
+        val message = usernameInput.text.toString()
 
+        val intent = Intent(this, MainActivity::class.java).also{
+            it.putExtra("EXTRA_LOGIN", message)
+            startActivity(it)
+        }
     }
 
 }

@@ -4,6 +4,7 @@
     <string name="home_page_title">Welcome to MI Order !</string>
     <string name="menu_page_title">Menu</string>
     <string name="cart_title">Cart</string>
+    <string name="admin_section">Admin section</string>
 
     <!--Login-->
     <string name="button_normal_co_txt">Go to app !</string>
@@ -19,6 +20,11 @@
     <string name="food_unit">Price</string>
     <string name="popup_food_units_number">number of units</string>
     <string name="popup_add_food_button">Add to cart</string>
+
+    <!--Command-->
+    <string name="command_name">Command Name</string>
+    <string name="command_food_name">Food Name</string>
+    <string name="command_precision_name">Precision</string>
 
     <!--Cart-->
     <string name="user_name_input">Name for the order</string>

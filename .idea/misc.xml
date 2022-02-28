@@ -5,16 +5,20 @@
       <map>
         <entry key="..\:/Users/aksee/AndroidStudioProjects/MI-Order/app/src/main/res/drawable/ic_launcher_background.xml" value="0.15925925925925927" />
         <entry key="..\:/Users/aksee/AndroidStudioProjects/MI-Order/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/aksee/AndroidStudioProjects/MI-Order/app/src/main/res/layout/fragment_admin.xml" value="0.34556159420289856" />
         <entry key="..\:/Users/aksee/AndroidStudioProjects/MI-Order/app/src/main/res/layout/fragment_cart.xml" value="0.264" />
         <entry key="..\:/Users/aksee/AndroidStudioProjects/MI-Order/app/src/main/res/layout/fragment_home.xml" value="0.264" />
         <entry key="..\:/Users/aksee/AndroidStudioProjects/MI-Order/app/src/main/res/layout/fragment_menu.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/aksee/AndroidStudioProjects/MI-Order/app/src/main/res/layout/item_cartfood.xml" value="0.3140625" />
+        <entry key="..\:/Users/aksee/AndroidStudioProjects/MI-Order/app/src/main/res/layout/item_command_vertical.xml" value="0.4" />
         <entry key="..\:/Users/aksee/AndroidStudioProjects/MI-Order/app/src/main/res/layout/item_horizontal_food.xml" value="0.21784420289855072" />
         <entry key="..\:/Users/aksee/AndroidStudioProjects/MI-Order/app/src/main/res/layout/item_horizontal_menu.xml" value="0.23958333333333334" />
         <entry key="..\:/Users/aksee/AndroidStudioProjects/MI-Order/app/src/main/res/layout/item_vertical_food.xml" value="0.4" />
         <entry key="..\:/Users/aksee/AndroidStudioProjects/MI-Order/app/src/main/res/layout/login_page.xml" value="0.3625" />
         <entry key="..\:/Users/aksee/AndroidStudioProjects/MI-Order/app/src/main/res/layout/popup_food_details.xml" value="0.264" />
+        <entry key="..\:/Users/aksee/AndroidStudioProjects/MI-Order/app/src/main/res/layout/popup_order_details.xml" value="0.28020833333333334" />
         <entry key="..\:/Users/aksee/AndroidStudioProjects/MI-Order/app/src/main/res/menu/bottom_navigation.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/aksee/AndroidStudioProjects/MI-Order/app/src/main/res/menu/bottom_navigation_admin.xml" value="0.28020833333333334" />
         <entry key="..\:/Users/benoi/AndroidStudioProjects/MI_Order/app/src/main/res/layout/activity_main.xml" value="0.10144927536231885" />
       </map>
     </option>

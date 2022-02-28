@@ -27,24 +27,24 @@
         app:layout_constraintTop_toBottomOf="@+id/app_title"
         style="@style/titleTextStyle"/>
 
-    <ImageView
-        android:id="@+id/liste_des_commandes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_star"
-        app:layout_constraintBottom_toTopOf="@+id/fragment_container"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginRight="@dimen/default_margin"
-        android:visibility="invisible"
-        />
-
 
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="100dp"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation_view_admin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:itemIconSize="50dp"
+        app:menu="@menu/bottom_navigation_admin"
+        android:visibility="visible"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigation_view"
@@ -55,8 +55,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:itemIconSize="50dp"
+        app:menu="@menu/bottom_navigation"
+        android:visibility="visible"/>
 
-        app:menu="@menu/bottom_navigation"/>
+
 
 
 

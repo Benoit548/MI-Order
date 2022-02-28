@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mi_order.FoodRepository.Singleton.foodList
+import com.example.mi_order.repository.FoodRepository.Singleton.foodList
 import com.example.mi_order.MainActivity
 import com.example.mi_order.R
 import com.example.mi_order.adapters.FoodAdapter
