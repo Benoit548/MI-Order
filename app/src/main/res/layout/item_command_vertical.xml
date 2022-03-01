@@ -46,15 +46,7 @@
 
 
 
-    <ImageView
-        android:id="@+id/delete_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_delete"
-        app:layout_constraintBottom_toBottomOf="@+id/view_separation"
-        app:layout_constraintEnd_toEndOf="@+id/view_separation"
-        app:layout_constraintTop_toTopOf="@+id/view_separation"
-        android:layout_marginRight="@dimen/default_margin"/>
+
 
 
 

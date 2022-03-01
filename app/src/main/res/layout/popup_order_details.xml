@@ -2,53 +2,93 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="360dp"
+    android:layout_height="500dp"
+    android:padding="15dp"
+  >
 
     <TextView
-        android:id="@+id/popup_food_description_title"
+        android:id="@+id/popup_order_name_title"
+        style="@style/titleTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/popup_food_description_title"
-        android:layout_marginTop="@dimen/default_margin"
-        app:layout_constraintStart_toStartOf="@+id/cardView3"
-        app:layout_constraintTop_toBottomOf="@+id/cardView3"
-        style="@style/titleTextStyle"/>
+        android:text="@string/popup_order_name_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/popup_food_name_subtitle"
+        android:id="@+id/popup_order_name_subtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/popup_food_name_subtitle"
-        app:layout_constraintStart_toStartOf="@+id/popup_food_description_title"
-        app:layout_constraintTop_toBottomOf="@+id/popup_food_description_title"
+        android:text="@string/popup_order_name_subtitle"
+        app:layout_constraintStart_toStartOf="@+id/popup_order_name_title"
+        app:layout_constraintTop_toBottomOf="@+id/popup_order_name_title"
         style="@style/DefaultTextStyle"/>
 
     <TextView
-        android:id="@+id/popup_food_unit"
+        android:id="@+id/popup_order_id_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/food_unit"
-        app:layout_constraintStart_toStartOf="@+id/popup_food_name_subtitle"
-        app:layout_constraintTop_toBottomOf="@+id/popup_food_name_subtitle"
+        android:text="@string/popup_order_id_title"
+        app:layout_constraintStart_toStartOf="@+id/popup_order_name_subtitle"
+        app:layout_constraintTop_toBottomOf="@+id/popup_order_name_subtitle"
         android:layout_marginTop="@dimen/default_margin"
         style="@style/titleTextStyle"/>
 
     <TextView
-        android:id="@+id/popup_food_units_number"
+        android:id="@+id/popup_order_id_subtitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/popup_food_units_number"
-        app:layout_constraintStart_toStartOf="@+id/popup_food_unit"
-        app:layout_constraintTop_toBottomOf="@+id/popup_food_unit"
+        android:text="@string/popup_order_id_subtitle"
+        app:layout_constraintStart_toStartOf="@+id/popup_order_id_title"
+        app:layout_constraintTop_toBottomOf="@+id/popup_order_id_title"
+        style="@style/DefaultTextStyle"/>
+
+    <TextView
+        android:id="@+id/popup_order_food_name_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_order_food_name_title"
+        app:layout_constraintStart_toStartOf="@+id/popup_order_id_subtitle"
+        app:layout_constraintTop_toBottomOf="@+id/popup_order_id_subtitle"
+        android:layout_marginTop="@dimen/default_margin"
+        style="@style/titleTextStyle"/>
+
+    <TextView
+        android:id="@+id/popup_order_food_name_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_order_food_name_subtitle"
+        app:layout_constraintStart_toStartOf="@+id/popup_order_food_name_title"
+        app:layout_constraintTop_toBottomOf="@+id/popup_order_food_name_title"
+        style="@style/DefaultTextStyle"/>
+
+    <TextView
+        android:id="@+id/popup_order_food_precision_name_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_order_food_precision_name_title"
+        app:layout_constraintStart_toStartOf="@+id/popup_order_food_name_subtitle"
+        app:layout_constraintTop_toBottomOf="@+id/popup_order_food_name_subtitle"
+        android:layout_marginTop="@dimen/default_margin"
+        style="@style/titleTextStyle"/>
+
+    <TextView
+        android:id="@+id/popup_order_food_precision_name_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/popup_order_food_precision_name_subtitle"
+        app:layout_constraintStart_toStartOf="@+id/popup_order_food_precision_name_title"
+        app:layout_constraintTop_toBottomOf="@+id/popup_order_food_precision_name_title"
         style="@style/DefaultTextStyle"/>
 
     <ImageView
         android:id="@+id/delete_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        app:layout_constraintEnd_toEndOf="@+id/popup_food_description_title"
-        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/popup_order_food_precision_name_subtitle"
         app:srcCompat="@drawable/ic_delete" />
 </androidx.constraintlayout.widget.ConstraintLayout>

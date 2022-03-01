@@ -25,11 +25,27 @@ class OrderPopup (
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         setContentView(R.layout.popup_order_details)
         setupDeleteButton()
+        setupComponents()
 
 
 
     }
-    private fun setupDeleteButton() {
+
+    private fun setupComponents() {
+        // Actualiser le username
+        findViewById<TextView>(R.id.popup_order_name_subtitle).text = currentOrder.userName
+
+        //Actualiser id
+        findViewById<TextView>(R.id.popup_order_id_subtitle).text = currentOrder.id
+
+        //Actualiser food name
+        findViewById<TextView>(R.id.popup_order_food_name_subtitle).text = currentOrder.food
+
+        //Actualiser precision
+        findViewById<TextView>(R.id.popup_order_food_precision_name_subtitle).text = currentOrder.precision
+    }
+
+        private fun setupDeleteButton() {
         findViewById<ImageView>(R.id.delete_button).setOnClickListener{
             //Supprimer
             val repo = OrderRepository()

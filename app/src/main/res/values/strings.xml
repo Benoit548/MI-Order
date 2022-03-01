@@ -13,13 +13,22 @@
     <string name="admin_name_input">Username</string>
     <string name="admin_password_input">Password</string>
 
-    <!--Popup-->
+    <!--Popup food-->
     <string name="popup_food_name">Food Name</string>
     <string name="popup_food_description_title">Description</string>
     <string name="popup_food_name_subtitle">Little description</string>
     <string name="food_unit">Price</string>
     <string name="popup_food_units_number">number of units</string>
-    <string name="popup_add_food_button">Add to cart</string>
+
+    <!--Popup order-->
+    <string name="popup_order_name_title">Username</string>
+    <string name="popup_order_name_subtitle">here the name</string>
+    <string name="popup_order_id_title">ID of the order</string>
+    <string name="popup_order_id_subtitle">here the ID</string>
+    <string name="popup_order_food_name_title">Food</string>
+    <string name="popup_order_food_name_subtitle">here the food</string>
+    <string name="popup_order_food_precision_name_title">Precision</string>
+    <string name="popup_order_food_precision_name_subtitle">here the precision</string>
 
     <!--Command-->
     <string name="command_name">Command Name</string>
